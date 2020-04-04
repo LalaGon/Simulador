@@ -58,7 +58,7 @@ public class Partida {
 		
 		public void finalizarPartida() {
 			
-			 // Vitória do Time Local
+			 // VitÃ³ria do Time Local
 			if(scoreLocal > scoreVisitante){
 				
 				timeLocal.setQtdPontos(timeLocal.getQtdPontos()+3);
@@ -66,7 +66,7 @@ public class Partida {
 				timeVisitante.setQtdDerrotas(timeVisitante.getQtdDerrotas()+1);
 			}
 			
-			//Vitória do Time Visitante
+			//VitÃ³ria do Time Visitante
 			else if(scoreVisitante > scoreLocal){ 
 				
 				timeVisitante.setQtdPontos(timeVisitante.getQtdPontos()+3);
@@ -109,9 +109,7 @@ public class Partida {
 		
 		public void finish() {
 			System.out.println("-----Integrantes-----");
-			System.out.println("\n");
-			System.out.println("Arthur Belmont");
-			System.out.println("Julia Matos");
+			System.out.println("\n");			
 			System.out.println("Lais Senna");
 			System.out.println("Video YouTube: www.youtube.com/watch?v=DZ_5oAxG0tU&feature=youtu.be");
 		}
