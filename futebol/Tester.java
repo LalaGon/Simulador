@@ -52,6 +52,8 @@ public class Tester {
 				System.out.println("\n");
 				visitante.listar();
 				System.out.println("\n");
+				local.iniciar();
+				visitante.iniciar();
 
 				
 				Scanner input1 = new Scanner(System.in);
@@ -76,6 +78,8 @@ public class Tester {
 				System.out.println("\n");
 				visitante.listar();
 				System.out.println("\n");
+				local.iniciar();
+				visitante.iniciar();
 
 				
 				Scanner input3 = new Scanner(System.in);
