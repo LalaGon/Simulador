@@ -111,7 +111,7 @@ public class Partida {
 			System.out.println("-----Integrantes-----");
 			System.out.println("\n");			
 			System.out.println("Lais Senna");
-			System.out.println("Video YouTube: www.youtube.com/watch?v=DZ_5oAxG0tU&feature=youtu.be");
+			System.out.println("Video YouTube: www.youtube.com/watch?v=GGx0kmhaRMU&feature=youtu.be");
 		}
 			    
 }
